@@ -491,6 +491,7 @@ print128:
 
 void lell_print(const lell_packet *pkt)
 {
+
 	int i, opcode;
 	if (lell_packet_is_data(pkt)) {
 		int llid = pkt->symbols[4] & 0x3;
